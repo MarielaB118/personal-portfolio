@@ -1,17 +1,18 @@
 import { raleway, cormorant } from "./ui/fonts";
 import Image from "next/image";
 import Socials from "@/app/ui/Socials";
+import TypingEffect from "./ui/Home/TypingEffect";
 
 export default function Page() {
   return (
-      <div className='h-full flex flex-row'>
+      <div className='h-full flex'>
         {/* left side of home page */}
         <div className='basis-1/2 flex flex-col px-40 pt-20 items-start'>
             <div className={`${raleway.className} text-5xl py-4`}>
               Hi there!
             </div>
             <div className={`${cormorant.className} text-2xl py-4`}>
-              I'm Mariela.
+              <TypingEffect />
             </div>
             <div className='py-4'>
             Hi, I'm Mariela, an aspiring software engineer and recent computer science graduate from Florida State University. 
@@ -24,7 +25,7 @@ export default function Page() {
         {/* right side of home page */}
         <div className='basis-1/2 flex flex-col px-40 pt-20 items-center'>
             {/* headshot circle image */}
-            <div className='p-8 h-full bg-lightBlue rounded-t-full flex flex-col items-center content-between'>
+            <div className='p-8 h-full bg-lightBlue rounded-t-full flex flex-col items-center content-between animate-slide-bottom'>
               <div className='rounded-full mt-4 border-8 border-charcoal overflow-hidden'>
                 <Image
                   src='/headshot.jpg'

@@ -14,6 +14,15 @@ const config: Config = {
         'lightBlue' : '#B8DBD9',
         'ghostWhite' : '#F4F4F9'
       },
+      keyframes: {
+        'slide-bottom': {
+          '0%': { transform: 'translateY(100%)'},
+          '100%' : { transform: 'translateX(0%)'} 
+        }
+      },
+      animation: {
+        'slide-bottom': 'slide-bottom 1s ease-out'
+      },
     },
   },
   plugins: [],

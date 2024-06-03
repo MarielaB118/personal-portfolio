@@ -8,10 +8,10 @@ export default function Socials () {
         <div className='flex flex-row justify-around content-center items-center relative z-50'>
 
             {/* Github */}
-            <a href="https://github.com/MarielaB118" target="_blank">
+            <a href="https://github.com/MarielaB118" target="_blan">
                 <button
                     type='button'
-                    className="bg-charcoal rounded-full p-3 text-white curser-pointer m-4"
+                    className="bg-charcoal rounded-full p-3 text-white curser-pointer m-4 "
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
