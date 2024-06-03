@@ -33,7 +33,7 @@ export default function ExperienceCard({ experienceType } : ExperienceCardProps)
     return (
         <div>
             {experience.map((exp, index) => (
-                <div key={index} className='p-8'>
+                <div key={index} className='p-8 motion-safe:hover:scale-[1.01]'>
                     <div className='flex items-center'>
                         <div className='flex items-center'>
                             <div className='bg-paynesGray rounded-full size-10'></div>
