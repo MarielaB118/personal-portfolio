@@ -15,14 +15,16 @@ const links = [
 export default function NavBar () {
     const pathname = usePathname();
     return (
-        <div className='flex bg-white w-screen h-auto flex flex-row content-center items-center'> 
+        <div className='flex bg-white w-screen h-auto flex flex-row content-center items-center drop-shadow-md relative z-50'> 
             <div className='basis-3/4 mx-8'>
-                <Image
-                    src='/logo.png'
-                    width={120}
-                    height={120}
-                    alt = 'logo image of blue m in curvy font'
-                />
+                <a href="/" >
+                    <Image
+                        src='/logo.png'
+                        width={120}
+                        height={120}
+                        alt = 'logo image of blue m in curvy font'
+                    />
+                </a>
             </div>
             <div className='basis-1/4 flex flex-row justify-between mx-8'>
                 {links.map((link) => {
@@ -37,21 +39,6 @@ export default function NavBar () {
                     </Link>
                     );
                 })}
-
-
-
-                {/* <Link href='/' className='mx-4 underline hover:underline-offset-4'>
-                    <p>Home</p>
-                </Link>
-                <Link href='/Experience'>
-                    <p>Experience</p>
-                </Link>
-                <Link href='/Projects'>
-                    <p>Projects</p>
-                </Link>
-                <Link href='/Contact'>
-                    <p>Contact</p>
-                </Link> */}
             </div>
         </div>
     )

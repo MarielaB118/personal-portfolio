@@ -10,9 +10,18 @@ const config: Config = {
     extend: {
       colors: {
         'charcoal' : '#2F4550',
-        'aynesGray' : '#586F7C',
-        'ashGray' : '#C2D3CD',
+        'paynesGray' : '#586F7C',
+        'lightBlue' : '#B8DBD9',
         'ghostWhite' : '#F4F4F9'
+      },
+      keyframes: {
+        'slide-bottom': {
+          '0%': { transform: 'translateY(100%)'},
+          '100%' : { transform: 'translateX(0%)'} 
+        }
+      },
+      animation: {
+        'slide-bottom': 'slide-bottom 1s ease-out'
       },
     },
   },
