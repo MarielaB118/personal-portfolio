@@ -1,7 +1,5 @@
 import { cormorant, brawler } from "@/app/ui/fonts";
-import WorkExperience from "@/app/lib/experience/workExperience";
-import ProjectExperience from "@/app/lib/experience/projectExperience";
-import EducationExperience from "@/app/lib/experience/educationExperience";
+import { WorkExperience, EducationExperience, ProjectExperience } from "@/app/lib/experience/ExperienceData";
 
 
 type Experience = {
