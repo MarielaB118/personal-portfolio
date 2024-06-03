@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={'bg-ghostWhite'}>
-      <body className={brawler.className}>
+      <body className={`${brawler.className} flex flex-col h-screen`}>
         <NavBar />
         {children}
       </body>

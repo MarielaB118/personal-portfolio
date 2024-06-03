@@ -4,10 +4,9 @@ import Socials from "@/app/ui/Socials";
 
 export default function Page() {
   return (
-    <div>
-      <div className='flex flex-row'>
+      <div className='h-full flex flex-row'>
         {/* left side of home page */}
-        <div className='basis-1/2 flex flex-col p-40'>
+        <div className='basis-1/2 flex flex-col px-40 pt-20 items-start'>
             <div className={`${raleway.className} text-5xl py-4`}>
               Hi there!
             </div>
@@ -23,37 +22,35 @@ export default function Page() {
         </div>
 
         {/* right side of home page */}
-        <div className='basis-1/2 flex flex-col h-max pt-20 px-40 pr-96 items-center'>
-
-          {/* arch contents */}
-          <div className='flex flex-col space-y-96 px-8 pt-8 bg-lightBlue items-center rounded-t-full border-8 border-lightBlue'>
-
+        <div className='basis-1/2 flex flex-col px-40 pt-20 items-center'>
             {/* headshot circle image */}
-            <div className='rounded-full size-96 border-8 border-charcoal overflow-hidden'>
-              <Image
-                src='/headshot.jpg'
-                height={415}
-                width={412}
-                alt='professional headshot image'
-                className='rounded-full'
-              />
-            </div>
+            <div className='p-8 h-full bg-lightBlue rounded-t-full flex flex-col items-center content-between'>
+              <div className='rounded-full mt-4 border-8 border-charcoal overflow-hidden'>
+                <Image
+                  src='/headshot.jpg'
+                  height={350}
+                  width={350}
+                  alt='professional headshot image'
+                  className='rounded-full'
+                />
+              </div>
+            
 
-            {/* connect with me section */}
-            <div className='flex flex-col justify-self-end items-center bg-lightBlue justify-self-end py-5'>
-              <div className={`${cormorant.className} text-2xl bg-lightBlue`}>Connect with me.</div>
-              <div className="bg-lightBlue">
-                <Socials />
+              {/* connect with me section */}
+              <div className='flex flex-col items-center bg-lightBlue px-12 mt-auto'>
+                <div className={`${cormorant.className} text-2xl bg-lightBlue`}>Connect with me.</div>
+                <div className="bg-lightBlue">
+                  <Socials />
+                </div>
               </div>
             </div>
-          </div>
         </div>
-      </div>
+
+        {/* background animated svg */}
+        <div className='absolute inset-0 overflow-clip h-full'>
+          <object className='relative -z-10' type='image/svg+xml' data='/pattern.svg'>svg-animation</object>
+        </div>
+      </div> 
       
-      {/* background animated svg */}
-      <div className='absolute inset-0 overflow-clip h-full'>
-        <object className='relative -z-10' type='image/svg+xml' data='/pattern.svg'>svg-animation</object>
-      </div>
-    </div>
   );
 }
