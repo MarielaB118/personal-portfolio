@@ -21,8 +21,11 @@ const config: Config = {
         }
       },
       animation: {
-        'slide-bottom': 'slide-bottom 1s ease-out'
+        'slide-bottom': 'slide-bottom 1s ease-out',
       },
+      scale: {
+        'flip': '-1'
+      }
     },
   },
   plugins: [],

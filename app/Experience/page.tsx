@@ -1,4 +1,6 @@
-
+import { raleway } from "@/app/ui/fonts"
+import ExperienceCard from "@/app/ui/Experience/ExperienceCard"
+import Image from "next/image"
 
 export default function Page() {
     return (
