@@ -10,8 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         'charcoal' : '#2F4550',
-        'aynesGray' : '#586F7C',
-        'ashGray' : '#C2D3CD',
+        'paynesGray' : '#586F7C',
+        'lightBlue' : '#B8DBD9',
         'ghostWhite' : '#F4F4F9'
       },
     },
