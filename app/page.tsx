@@ -15,9 +15,9 @@ export default function Page() {
               <TypingEffect />
             </div>
             <div className='py-4'>
-            Hi, I'm Mariela, an aspiring software engineer and recent computer science graduate from Florida State University. 
+            Hi, I&apos;m Mariela, an aspiring software engineer and recent computer science graduate from Florida State University. 
             Driven by curiosity and a passion for creativity, I enjoy exploring various aspects of software development, and 
-            I am always happy to learn something new. Feel free to explore my site and connect with me – I’m eager to embark 
+            I am always happy to learn something new. Feel free to explore my site and connect with me &ndash; I&apos;m eager to embark 
             on new opportunities and contribute my skills to innovative projects!
             </div>
         </div>
