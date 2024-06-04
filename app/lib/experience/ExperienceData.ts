@@ -36,7 +36,7 @@ export const WorkExperience = [
     {
         title: 'Undergraduate Teaching Assistant',
         company: 'Florida State University',
-        duration: 'Aug 2022 -Apr 2023',
+        duration: 'Aug 2022 - Apr 2023',
         description: 'Conducted weekly office hours to provide personalized assistance to students, addressing questions and clarifying concepts for the Introduction of C++ course, fostering a supportive learning environment. Delivered constructive and detailed feedback on assignments, providing insights to help students understand their mistakes and make necessary improvements in their work, facilitating academic growth and improvement.',
         skills: 'C++, Teaching, Communication, Leadership'
     },
