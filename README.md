@@ -35,5 +35,6 @@ To run this project locally, follow these steps:
 
 ## Hosted Link
 
-This project is hosted at marielabadillo.com
+This project is hosted at [marielabadillo.com](https://marielabadillo.com).
+
 
