@@ -4,7 +4,7 @@ Welcome to my personal website repository! This project serves as a platform to 
 
 ## Description
 
-I have developed this personal website using the Next.js framework, TypeScript, and Tailwind CSS. It features a dynamic and responsive design to ensure an optimal viewing experience across various devices. The website showcases my portfolio projects, providing visitors with insights into my skills and accomplishments.
+I have developed this personal website using the Next.js framework, TypeScript, and Tailwind CSS. The website showcases my portfolio projects, providing visitors with insights into my skills and accomplishments.
 
 ## Features
 
