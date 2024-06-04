@@ -8,6 +8,7 @@ type Experience = {
     duration: string;
     description: string;
     skills: string;
+    link: string;
 };
 
 type ExperienceCardProps = {
@@ -37,10 +38,19 @@ export default function ExperienceCard({ experienceType } : ExperienceCardProps)
                             <div className='bg-paynesGray rounded-full size-10'></div>
                             <div className='bg-charcoal w-14 h-1 mx-2.5'></div>
                         </div>
-                        <div className={`${cormorant.className} text-2xl`}>{exp.title}</div>
+                        {exp.link ? ( 
+                            <div>
+                                <a href={exp.link} target="_blank">
+                                    <div className={`${cormorant.className} text-2xl`}>{exp.title}</div>
+                                </a>
+                            </div>
+                            ) : ( 
+                            <div className={`${cormorant.className} text-2xl`}>{exp.title}</div> 
+                        )}
+                        
                     </div>
                     <div className={`${brawler.className} text-base space-y-2 pl-24 ml-4 mt-1.5 border-l-4 border-charcoal`}>
-                        <div>{exp.company}</div>
+                        {exp.company && <div>{exp.company}</div>}
                         <div>{exp.duration}</div>
                         <div>{exp.description}</div>
                         {exp.skills && (

@@ -8,7 +8,7 @@ export default function Socials () {
         <div className='flex flex-row justify-around content-center items-center relative z-50'>
 
             {/* Github */}
-            <a href="https://github.com/MarielaB118" target="_blan">
+            <a href="https://github.com/MarielaB118" target="_blan" className='motion-safe:hover:scale-105'>
                 <button
                     type='button'
                     className="bg-charcoal rounded-full p-3 text-white curser-pointer m-4 "
@@ -26,6 +26,7 @@ export default function Socials () {
             {/* email */}
             <a href='mailto:mlbadillo8@gmail@@com'
                 onMouseOver={replaceEmail}
+                className='motion-safe:hover:scale-105'
             >
                 <button
                 type='button'
@@ -47,7 +48,7 @@ export default function Socials () {
             
 
             {/* <!-- Linkedin --> */}
-            <a href="https://www.linkedin.com/in/marielabadillo/" target="_blank">
+            <a href="https://www.linkedin.com/in/marielabadillo/" target="_blank" className='motion-safe:hover:scale-105'>
                 <button
                     type='button'
                     className="bg-charcoal rounded-full p-3 text-white curser-pointer m-4"
