@@ -33,6 +33,15 @@ To run this project locally, follow these steps:
     yarn dev
 5. Open your browser and navigate to http://localhost:3000 to view the website.
 
+## The Website
+<p align="center">
+   <img src='https://res.cloudinary.com/draeog9tt/image/upload/v1717694233/HomePage_f9f6cs.png' width=400>   <img src='https://res.cloudinary.com/draeog9tt/image/upload/v1717694233/ExperiencePage_w0hqwk.png' width=400> 
+</p>
+<p align="center">
+   <img src='https://res.cloudinary.com/draeog9tt/image/upload/v1717694233/ContactPage_ivwemc.png' width=400>
+</p>
+
+
 ## Hosted Link
 
 This project is hosted at [marielabadillo.com](https://marielabadillo.com).
