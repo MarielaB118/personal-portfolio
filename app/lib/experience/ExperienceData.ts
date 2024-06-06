@@ -18,7 +18,7 @@ export const ProjectExperience = [
                     Learned and utilized cutting-edge web technologies to craft an engaging and visually appealing platform for showcasing skills and portfolio projects to prospective 
                     employers.`,
         skills: 'Next.js, TypeScript, Tailwind CSS, design, development, deployment',
-        link: '',
+        link: 'https://github.com/MarielaB118/personal-portfolio',
     },
     {
         title: 'CleverCook',
