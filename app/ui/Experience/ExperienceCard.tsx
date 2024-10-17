@@ -52,7 +52,7 @@ export default function ExperienceCard({ experienceType } : ExperienceCardProps)
                         )}
                         
                     </div>
-                    <div className={`${brawler.className} text-base space-y-2 pl-24 ml-4 mt-1.5 border-l-4 border-charcoal`}>
+                    <div className={`${brawler.className} text-base space-y-2 pl-8 md:pl-24 ml-4 mt-1.5 border-l-4 border-charcoal`}>
                         {exp.company && <div>{exp.company}</div>}
                         <div>{exp.duration}</div>
                         <div>{exp.description}</div>
