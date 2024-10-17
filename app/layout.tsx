@@ -2,6 +2,7 @@ import '@/app/ui/globals.css';
 import type { Metadata } from "next";
 import { brawler } from "./ui/fonts";
 import NavBar from "./ui/Navbar/NavBar";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "Mariela Badillo Personal Portfolio",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={`${brawler.className} flex flex-col h-screen`}>
         <NavBar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
