@@ -4,8 +4,8 @@ import Image from "next/image"
 
 export default function Page() {
     return (
-        <div className='w-1/2 h-auto pt-20'>
-            <div className={`${raleway.className} text-3xl bg-lightBlue w-full p-4 rounded-r-full`}>Projects</div>
+        <div className='w-full md:w-1/2 h-auto pt-20'>
+            <div className={`${raleway.className} text-3xl bg-lightBlue w-full p-4 rounded-r-full animate-slide-right`}>Projects</div>
             <ExperienceCard experienceType='projects' />
             {/* background svg */}
             <div className='absolute bottom-0 right-0'>

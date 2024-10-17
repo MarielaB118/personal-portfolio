@@ -5,9 +5,9 @@ import TypingEffect from "./ui/Home/TypingEffect";
 
 export default function Page() {
   return (
-      <div className='h-full flex'>
+      <div className='h-full flex flex-col md:flex-row'>
         {/* left side of home page */}
-        <div className='basis-1/2 flex flex-col px-40 pt-20 items-start'>
+        <div className='basis-1/2 flex flex-col px-20 md:px-40 pt-20 items-start'>
             <div className={`${raleway.className} text-5xl py-4`}>
               Hi there!
             </div>
@@ -23,20 +23,19 @@ export default function Page() {
         </div>
 
         {/* right side of home page */}
-        <div className='basis-1/2 flex flex-col px-40 pt-20 items-center'>
+        <div className='basis-1/2 flex flex-col px-40 pt-10 items-center'>
             {/* headshot circle image */}
-            <div className='p-8 h-full bg-lightBlue rounded-t-full flex flex-col items-center content-between animate-slide-bottom'>
-              <div className='rounded-full mt-4 border-8 border-charcoal overflow-hidden'>
+            <div className='p-2 h-full bg-lightBlue rounded-t-full flex flex-col items-center content-between animate-slide-bottom'>
+              <div className='rounded-full mt-12 border-8 border-charcoal overflow-hidden'>
                 <Image
                   src='/headshot.jpg'
-                  height={350}
-                  width={350}
+                  height={275}
+                  width={275}
                   alt='professional headshot image'
                   className='rounded-full'
                 />
               </div>
             
-
               {/* connect with me section */}
               <div className='flex flex-col items-center bg-lightBlue px-12 mt-auto'>
                 <div className={`${cormorant.className} text-2xl bg-lightBlue`}>Connect with me.</div>
