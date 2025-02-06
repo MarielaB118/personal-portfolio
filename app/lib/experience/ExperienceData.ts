@@ -12,7 +12,7 @@ export const EducationExperience = [
 export const ProjectExperience = [
     {
         title: 'Personal Website',
-        company:'',
+        company: '',
         duration: 'May 2024 - Jun 2024',
         description: `Engineered a sophisticated and responsive personal website utilizing Next.js, TypeScript, and Tailwind CSS to exhibit professional work and achievements.
                     Learned and utilized cutting-edge web technologies to craft an engaging and visually appealing platform for showcasing skills and portfolio projects to prospective 
@@ -51,6 +51,16 @@ export const ProjectExperience = [
 ];
 
 export const WorkExperience = [
+    {
+        title: 'Software Engineer I',
+        company: 'Accelya - Remote',
+        duration: 'Aug 2024 - Current',
+        description: `Retrieve and analyze crash logs from AWS S3 to investigate production failures, identifying root causes and proposing effective solutions.
+                    Investigate and resolve customer-reported issues by debugging and fixing C++ backend bugs assigned via Jira, improving system stability.
+                    Support continuous improvement efforts by maintaining high code quality and contributing to system reliability in production environments`,
+        skills: 'C++, AWS, JIRA, Software Development, Debugging, Software Testing, Engineering, Adaptability',
+        link: '',
+    },
     {
         title: 'Research and Development Engineer Intern',
         company: 'Universal Creative - Orlando, FL',
