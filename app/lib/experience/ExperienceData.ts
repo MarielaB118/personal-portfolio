@@ -52,12 +52,22 @@ export const ProjectExperience = [
 
 export const WorkExperience = [
     {
+        title: 'Associate Software Engineer',
+        company: 'Publix Technology - Lakeland, FL',
+        duration: 'April 2025 - Current',
+        description: `Support and maintain three production systems by diagnosing and resolving bugs reported from stores and internal teams using C#, SQL, and KQL in Azure.
+        Investigate issues using Splunk and other monitoring tools to identify root causes, implement fixes, and ensure system stability and performance.
+        Contribute to the development and enhancement of internal tools, improving workflows and efficiency across departments.`,
+        skills: 'C#, Azure, SQL, Software Development, Debugging, Software Testing, Engineering, Adaptability',
+        link: '',
+    },
+    {
         title: 'Software Engineer I',
         company: 'Accelya - Remote',
-        duration: 'Aug 2024 - Current',
+        duration: 'Aug 2024 - March 2025',
         description: `Retrieve and analyze crash logs from AWS S3 to investigate production failures, identifying root causes and proposing effective solutions.
                     Investigate and resolve customer-reported issues by debugging and fixing C++ backend bugs assigned via Jira, improving system stability.
-                    Support continuous improvement efforts by maintaining high code quality and contributing to system reliability in production environments`,
+                    Support continuous improvement efforts by maintaining high code quality and contributing to system reliability in production environments.`,
         skills: 'C++, AWS, JIRA, Software Development, Debugging, Software Testing, Engineering, Adaptability',
         link: '',
     },
